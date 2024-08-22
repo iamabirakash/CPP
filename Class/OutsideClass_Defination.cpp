@@ -19,6 +19,7 @@ class employee
 void employee::putdata()
 {
     cout<<eid<<" "<<name<<" "<<salary;
+    //cout<<eid<<endl<<name<<endl<<salary; //New Line
 }
 int main()
 {
