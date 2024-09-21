@@ -47,37 +47,68 @@ The given test cases fall under the following constraints:
 
 Sample test cases :
 Input 1 :
-3
-50 120 30
-2
-75 200
-2
-120 50
+`3`
+
+`50 120 30`
+
+`2`
+
+`75 200`
+
+`2`
+
+`120 50`
+
 Output 1 :
-Inventory List: 50 120 30 
-Inserting Item: 75
-Inventory List: 50 120 30 75 
-Inserting Item: 200
-Inventory List: 50 120 30 75 200 
-Removing Item: 120
-Inventory List: 50 30 75 200 
-Removing Item: 50
-Inventory List: 30 75 200 
+
+Inventory List: `50 120 30`
+
+Inserting Item: `75`
+
+Inventory List: `50 120 30 75`
+
+Inserting Item: `200`
+
+Inventory List: `50 120 30 75 200` 
+
+Removing Item: `120`
+
+Inventory List: `50 30 75 200`
+
+Removing Item: `50`
+
+Inventory List: `30 75 200` 
 
 Input 2 :
-4
-12 78 35 69
-1
-42
-3
-42 35 69
+
+`4`
+
+`12 78 35 69`
+
+`1`
+
+`42`
+
+`3`
+
+`42 35 69`
+
 Output 2 :
-Inventory List: 12 78 35 69 
-Inserting Item: 42
-Inventory List: 12 78 35 69 42 
-Removing Item: 42
-Inventory List: 12 78 35 69 
-Removing Item: 35
-Inventory List: 12 78 69 
-Removing Item: 69
-Inventory List: 12 78 ****
+
+Inventory List: `12 78 35 69`
+
+Inserting Item: `42`
+
+Inventory List: `12 78 35 69 42` 
+
+Removing Item: `42`
+
+Inventory List: `12 78 35 69` 
+
+Removing Item: `35`
+
+Inventory List: `12 78 69` 
+
+Removing Item: `69`
+
+Inventory List: `12 78` ****
