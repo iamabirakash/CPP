@@ -26,16 +26,23 @@ The given test cases fall under the following constraints:
 
 Sample test cases :
 Input 1 :
-2 
-3 3 
-1 2 3 
+
+`2` 
+
+`3 3`
+
+`1 2 3 
 4 5 6 
-7 8 9 
-0 2 
-2 2 
-1 2 
-3 4 
-1 0 
+7 8 9`
+
+`0 2`
+
+`2 2 
+1 2`
+
+`3 4 
+1 0`
+
 Output 1 :
 3 2 1 
 6 5 4 
