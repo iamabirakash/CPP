@@ -17,6 +17,10 @@ class rectangle{
             int a = length*breadth;
             return a;
         }
+        // int get(){
+        //     cin>>length>>breadth;
+        //     return length*breadth;
+        // }
         
 };
 class circle{
