@@ -15,14 +15,16 @@ class student{
             return roll_no;
         }
 };
-class result: student{ //by default private
-    int marks; //section //get_roll_no //get_section()
+class result:protected student{
+    int marks;
     public:
         void get(){
             cin>>marks;
         }
         void print(){
-            cout<<marks<<" "<<get_section()<<" "<<get_rollno();
+            cout<<"Marks: "<<marks<<endl;
+            cout<<"Section: "<<get_section()<<endl;
+            cout<<"Roll no: "<<get_rollno();
         }
 };
 int main(){
