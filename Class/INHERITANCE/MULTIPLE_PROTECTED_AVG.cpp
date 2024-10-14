@@ -24,9 +24,9 @@ class course:public student{
 };
 class result:public course{
     protected:
-        float average;
+        double average;
     public:
-        int sum = 0;
+        double sum = 0;
         void print(){
             for(int i=0;i<5;i++){
                 sum += marks[i];
