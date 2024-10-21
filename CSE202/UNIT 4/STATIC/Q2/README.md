@@ -31,11 +31,15 @@ In this scenario, the test cases fall under the following constraints:
 1.0 ≤ Time ≤ 50.0
 
 Sample test cases :
+
 Input 1 :
 10.3 5.0 2.1
+
 Output 1 :
 20.8 m/s
+
 Input 2 :
 410.2 9.8 4.5
+
 Output 2 :
 454.3 m/s
