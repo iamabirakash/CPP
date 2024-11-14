@@ -8,6 +8,11 @@ T sswap(T a,T b){
     b = temp;
     cout<<a<<" "<<b;
 }
+void sswap(T &a,T &b){
+    T temp = a;
+    a = b;
+    b = temp;
+}
 int main(){
     int x,y;
     cin>>x>>y;
